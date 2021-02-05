@@ -1,0 +1,19 @@
+{
+  "name": "Switch My Tracks",
+  "version": "0.01",
+  "description": "Switch My tracks",
+  "browser_action": {
+    "default_title": "Switch My tracks",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon16.png",
+    "128": "icon16.png"
+  },
+  "manifest_version": 2
+}
